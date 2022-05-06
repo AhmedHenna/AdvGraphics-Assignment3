@@ -1095,6 +1095,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Color",
+                    "type": "Button",
+                    "id": "ca802bf6-d657-48ea-a6b0-b5d246344918",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -1161,6 +1170,39 @@
                     "processors": "",
                     "groups": "",
                     "action": "Change Animation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a77907f8-4834-43d9-86d0-39d916352898",
+                    "path": "<OpenVROculusTouchController>/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Color",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3cf1ede4-0923-4075-9add-e31985ca4259",
+                    "path": "<OculusTouchController>/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Color",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "929700e0-e514-4543-ae90-f4de231e5213",
+                    "path": "<Keyboard>/c",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Color",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
