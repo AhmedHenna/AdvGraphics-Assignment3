@@ -1,28 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
+
 
 public class SwitchCamera : MonoBehaviour
 {
     public GameObject cam1;
     public GameObject cam2;
-    public GameObject cam3; 
+    public InputActionReference toggleReference = null;
 
-    void Update(){
-        if(Input.GetKey("1")){
-            cam1.SetActive(true);
-            cam2.SetActive(false);
-            cam3.SetActive(false);
-        }
-        if(Input.GetKey("2")){
+
+    void Start()
+    {
+        toggleReference.action.started += Change; 
+    }
+
+
+    void Change(InputAction.CallbackContext context){
+    
+        if(cam1.activeInHierarchy){
             cam1.SetActive(false);
             cam2.SetActive(true);
-            cam3.SetActive(false);
-        }
-        if(Input.GetKey("3")){
-            cam1.SetActive(false);
+        }else if(cam2.activeInHierarchy){
             cam2.SetActive(false);
-            cam3.SetActive(true);
+            cam1.SetActive(true);
         }
+          
+    
     }
 }
