@@ -1218,7 +1218,7 @@
                 {
                     "name": "Blur",
                     "type": "Button",
-                    "id": "f4e9eccd-f003-4309-85ef-9e6c18ca0ac4",
+                    "id": "d477874f-6070-498a-9c68-302d759fc5e1",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -1295,7 +1295,7 @@
                 {
                     "name": "",
                     "id": "a77907f8-4834-43d9-86d0-39d916352898",
-                    "path": "<OpenVROculusTouchController>{RightHand}/thumbstickClicked",
+                    "path": "<OculusTouchController>{RightHand}/thumbstickClicked",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -1327,8 +1327,8 @@
                 },
                 {
                     "name": "",
-                    "id": "2728ef00-767b-4695-adbb-18b4b7e97142",
-                    "path": "<OpenVROculusTouchController>{LeftHand}/thumbstickClicked",
+                    "id": "9d990141-c863-44b6-85f4-c1cf5abc9826",
+                    "path": "<Keyboard>/1",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -1338,7 +1338,7 @@
                 },
                 {
                     "name": "",
-                    "id": "3ff67416-b7cf-4e4f-84cf-3325eb6a220a",
+                    "id": "73d5a1e4-36fe-4c74-a2fc-a1ba83856aef",
                     "path": "<OculusTouchController>{LeftHand}/thumbstickClicked",
                     "interactions": "",
                     "processors": "",
@@ -1349,8 +1349,8 @@
                 },
                 {
                     "name": "",
-                    "id": "c3b41b4f-1aca-425d-a789-05dbef348780",
-                    "path": "<Keyboard>/space",
+                    "id": "8d3c7e7a-728e-48ee-8a20-cae78e0be908",
+                    "path": "<OpenVROculusTouchController>{LeftHand}/thumbstickClicked",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
